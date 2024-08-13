@@ -15,7 +15,20 @@
 			</div>
 
 			<div class="navbar-center">
-				<ul class="menu menu-horizontal text-xl font-bold hidden sm:flex">Menu</ul>
+				<ul class="menu menu-horizontal text-xl font-bold hidden sm:flex">
+					<li>
+						<a href="/courses" class="btn btn-ghost text-xl">Corsi</a>
+					</li>
+					<li>
+						<a href="/staff" class="btn btn-ghost text-xl">Staff</a>
+					</li>
+					<li>
+						<a href="/shop" class="btn btn-ghost text-xl">Shop</a>
+					</li>
+					<li>
+						<a href="/partners" class="btn btn-ghost text-xl">Partners</a>
+					</li>
+				</ul>
 			</div>
 
 			<div class="navbar-end">

@@ -1,6 +1,9 @@
 <script>
 	import Navbar from '../components/navigation/navbar.svelte';
 	import Footer from '../components/navigation/footer.svelte';
+	import Background from '../components/utils/background.svelte';
+
+	const BLACK = 'https://upload.wikimedia.org/wikipedia/commons/4/49/A_black_image.jpg';
 
 	const content = [
 		{
@@ -31,8 +34,10 @@
 </script>
 
 <Navbar />
+<Background background="https://picsum.photos/seed/chaotic/1920/1080" />
+
 <div class="flex-grow">
-	<main class="container mx-auto my-8 grid grid-cols-1 gap-8">
+	<div class="container mx-auto my-8 grid grid-cols-1 gap-8">
 		{#each content as item}
 			<div
 				class="flex flex-col md:flex-row {item.align === 'left'
@@ -43,7 +48,7 @@
 					<img
 						src={item.image}
 						alt="Placeholder"
-						class={`w-full shadow-lg mask ${item.mask} ${item.mask === 'mask-square' ? 'rounded-lg' : ''}`}
+						class={`w-full shadow-lg mask ${item.mask} ${item.mask === 'mask-square' ? 'rounded-3xl' : ''}`}
 					/>
 				</div>
 				<div class="md:w-1/4 p-4">
@@ -51,6 +56,7 @@
 				</div>
 			</div>
 		{/each}
-	</main>
+	</div>
 </div>
+
 <Footer />
