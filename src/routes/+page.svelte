@@ -21,7 +21,7 @@
 				<div class="md:w-1/4 p-4">
 					<img
 						src={paragraph.image.src}
-						alt="Placeholder"
+						alt={paragraph.image.alt}
 						class={`w-full shadow-lg mask ${paragraph.image.mask} ${paragraph.image.mask === 'mask-square' ? 'rounded-3xl' : ''}`}
 					/>
 				</div>

@@ -48,7 +48,7 @@
             "src": "https://via.placeholder.com/1920x1080",
             "alt": "Background image"
         },
-        "course": [
+        "list": [
             {
                 "title": "Avanzati",
                 "image": {
@@ -104,11 +104,6 @@
                         "day": "Martedì",
                         "time": "2000-2200",
                         "place": "Palagym"
-                    },
-                    {
-                        "day": "Giovedì",
-                        "time": "2000-2200",
-                        "place": "Lambertenghi"
                     }
                 ]
             },
@@ -125,11 +120,6 @@
                         "day": "Lunedì",
                         "time": "1800-1900",
                         "place": "Palagym"
-                    },
-                    {
-                        "day": "Mercoledì",
-                        "time": "1800-1900",
-                        "place": "Lambertenghi"
                     }
                 ]
             }
@@ -140,7 +130,7 @@
             "src": "https://via.placeholder.com/1920x1080",
             "alt": "Background image"
         },
-        "people": [
+        "list": [
             {
                 "name": "Adriano Saurwein",
                 "role": "Monitore",
