@@ -12,7 +12,7 @@
 	class="bg-cover bg-center bg-fixed h-screen -z-10"
 	style="background-image: url('{BACKGROUND}');"
 >
-	<div class="grid grid-cols-2 grid-rows-2 gap-20 place-items-center h-screen">
+	<div class="grid grid-cols-2 grid-rows-auto gap-20 place-items-center h-screen">
 		{#each COURSES as course}
 			<div class="relative text-center">
 				<img

@@ -125,18 +125,78 @@
             }
         ]
     },
-    "Staff": {
+    "staff": {
         "background": {
             "src": "https://via.placeholder.com/1920x1080",
             "alt": "Background image"
         },
         "list": [
             {
-                "name": "Adriano Saurwein",
+                "name": "Test Prova",
                 "role": "Monitore",
                 "image": {
                     "src": "https://via.placeholder.com/200",
-                    "alt": "Immagine di Adriano Saurwein",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
                     "mask": "mask-squircle"
                 },
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
