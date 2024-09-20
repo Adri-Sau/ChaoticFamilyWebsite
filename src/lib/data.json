@@ -209,14 +209,14 @@
             "alt": "Background image"
         }
     },
-    "parthners": {
+    "partners": {
         "background": {
             "src": "https://via.placeholder.com/1920x1080",
             "alt": "Background image"
         },
         "list": [
             {
-                "name": "Parthner 1",
+                "name": "Partner 1",
                 "link": "/",
                 "importance": 1,
                 "image": {
@@ -226,7 +226,7 @@
                 }
             },
             {
-                "name": "Parthner 2",
+                "name": "Partner 2",
                 "link": "/",
                 "importance": 2,
                 "image": {

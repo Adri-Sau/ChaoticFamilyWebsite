@@ -8,11 +8,10 @@
 </script>
 
 <Navbar />
-<div
-	class="bg-cover bg-center bg-fixed h-screen -z-10"
-	style="background-image: url('{BACKGROUND}');"
->
-	<div class="grid grid-cols-5 grid-rows-auto mx-20 place-items-center h-screen">
+<div class="bg-cover bg-center bg-fixed" style="background-image: url('{BACKGROUND}');">
+	<div
+		class="grid md:grid-cols-5 grid-cols-1 grid-rows-auto gap-5 md:gap-0 mx-20 place-items-center h-screen"
+	>
 		{#each STAFF as staff}
 			<div class="relative text-center">
 				<img
