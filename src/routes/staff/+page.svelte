@@ -20,7 +20,7 @@
 					alt={staff.image.alt}
 					class={`w-full shadow-lg mask ${staff.image.mask} ${staff.image.mask === 'mask-square' ? 'rounded-3xl' : ''}`}
 				/>
-				<div class="absolute top-0 w-full align-middle">
+				<div class="absolute w-full top-1/2 -translate-y-1/2">
 					<h1 class="text-4xl text-center font-bold">{staff.name}</h1>
 					<div>
 						<div class="text-center text-xl">{staff.role}</div>

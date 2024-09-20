@@ -17,7 +17,10 @@
 			<div class="navbar-center">
 				<ul class="menu menu-horizontal text-xl font-bold hidden sm:flex">
 					<li>
-						<a href="/courses" class="btn btn-ghost text-xl">Corsi</a>
+						<a href="/" class="btn btn-ghost text-xl">Home</a>
+					</li>
+					<li>
+						<a href="/courses" class="btn btn-ghost text-xl">Courses</a>
 					</li>
 					<li>
 						<a href="/staff" class="btn btn-ghost text-xl">Staff</a>

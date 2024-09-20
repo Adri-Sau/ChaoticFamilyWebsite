@@ -20,7 +20,7 @@
 					alt={course.image.alt}
 					class={`w-full shadow-lg mask ${course.image.mask} ${course.image.mask === 'mask-square' ? 'rounded-3xl' : ''}`}
 				/>
-				<div class="absolute top-0 w-full">
+				<div class="absolute w-full top-1/2 -translate-y-1/2">
 					<h1 class="text-4xl text-center font-bold">{course.title}</h1>
 					{#each course.trainings as training}
 						<div>
