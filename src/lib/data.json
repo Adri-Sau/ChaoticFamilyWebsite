@@ -1,0 +1,240 @@
+{
+    "home": {
+        "background": {
+            "src": "https://via.placeholder.com/1920x1080",
+            "alt": "Background image"
+        },
+        "paragraphs": [
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Placeholder image",
+                    "align": "left",
+                    "mask": "mask-squircle"
+                }
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Placeholder image",
+                    "align": "right",
+                    "mask": "mask-hexagon-2"
+                }
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Placeholder image",
+                    "align": "left",
+                    "mask": "mask-circle"
+                }
+            },
+            {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Placeholder image",
+                    "align": "right",
+                    "mask": "mask-square"
+                }
+            }
+        ]
+    },
+    "courses": {
+        "background": {
+            "src": "https://via.placeholder.com/1920x1080",
+            "alt": "Background image"
+        },
+        "list": [
+            {
+                "title": "Avanzati",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine copertina del corso avanzato",
+                    "mask": "mask-squircle"
+                },
+                "images": [],
+                "trainings": [
+                    {
+                        "day": "Lunedì",
+                        "time": "2000-2200",
+                        "place": "Palagym"
+                    },
+                    {
+                        "day": "Mercoledì",
+                        "time": "2000-2200",
+                        "place": "Lambertenghi"
+                    }
+                ]
+            },
+            {
+                "title": "Medi",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine copertina del corso giovani",
+                    "mask": "mask-square"
+                },
+                "images": [],
+                "trainings": [
+                    {
+                        "day": "Martedì",
+                        "time": "1800-1900",
+                        "place": "Palagym"
+                    },
+                    {
+                        "day": "Giovedì",
+                        "time": "1800-1900",
+                        "place": "Lambertenghi"
+                    }
+                ]
+            },
+            {
+                "title": "Principianti",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine copertina del corso principiante",
+                    "mask": "mask-hexagon-2"
+                },
+                "images": [],
+                "trainings": [
+                    {
+                        "day": "Martedì",
+                        "time": "2000-2200",
+                        "place": "Palagym"
+                    }
+                ]
+            },
+            {
+                "title": "Baby",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine copertina del corso bambini",
+                    "mask": "mask-circle"
+                },
+                "images": [],
+                "trainings": [
+                    {
+                        "day": "Lunedì",
+                        "time": "1800-1900",
+                        "place": "Palagym"
+                    }
+                ]
+            }
+        ]
+    },
+    "staff": {
+        "background": {
+            "src": "https://via.placeholder.com/1920x1080",
+            "alt": "Background image"
+        },
+        "list": [
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            },
+            {
+                "name": "Test Prova",
+                "role": "Monitore",
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine di Prova",
+                    "mask": "mask-squircle"
+                },
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor."
+            }
+        ]
+    },
+    "merch": {
+        "background": {
+            "src": "https://via.placeholder.com/1920x1080",
+            "alt": "Background image"
+        }
+    },
+    "partners": {
+        "background": {
+            "src": "https://via.placeholder.com/1920x1080",
+            "alt": "Background image"
+        },
+        "list": [
+            {
+                "name": "Partner 1",
+                "link": "/",
+                "importance": 1,
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine del parthner 1",
+                    "mask": "mask-squircle"
+                }
+            },
+            {
+                "name": "Partner 2",
+                "link": "/",
+                "importance": 2,
+                "image": {
+                    "src": "https://via.placeholder.com/200",
+                    "alt": "Immagine del parthner 2",
+                    "mask": "mask-square"
+                }
+            }
+        ]
+    }
+}
