@@ -10,7 +10,11 @@
 		>
 			<div class="navbar-start">
 				<a href="/">
-					<img src={LOGO} alt="Logo Chaotic Family" class="rounded w-16 hover:scale-110" />
+					<img
+						src={LOGO}
+						alt="Logo Chaotic Family"
+						class="rounded w-16 hover:scale-110 transition-transform duration-100"
+					/>
 				</a>
 			</div>
 
@@ -62,6 +66,22 @@
 
 	<div class="drawer-side">
 		<label for="my-drawer-1" aria-label="close sidebar" class="drawer-overlay"></label>
-		<ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content pt-20">menu \n search?</ul>
+		<ul class="menu p-4 w-40 min-h-full bg-base-200 text-base-content pt-20">
+			<li>
+				<a href="/" class="btn btn-ghost text-xl">Home</a>
+			</li>
+			<li>
+				<a href="/courses" class="btn btn-ghost text-xl">Courses</a>
+			</li>
+			<li>
+				<a href="/staff" class="btn btn-ghost text-xl">Staff</a>
+			</li>
+			<li>
+				<a href="/shop" class="btn btn-ghost text-xl">Shop</a>
+			</li>
+			<li>
+				<a href="/partners" class="btn btn-ghost text-xl">Partners</a>
+			</li>
+		</ul>
 	</div>
 </div>

@@ -1,8 +1,10 @@
 <footer class="footer bg-neutral text-neutral-content items-center p-4 px-8">
-	<aside class="grid-flow-col items-center">
+	<aside class="grid-flow-col items-center md:block hidden">
 		<p class="text-2xl">Contattaci</p>
 	</aside>
-	<nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+	<nav
+		class="w-full md:w-48 grid grid-cols-4 gap-auto md:gap-4 justify-self-center justify-items-center md:justify-self-end"
+	>
 		<a href="/">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
