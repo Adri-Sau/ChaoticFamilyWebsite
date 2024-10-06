@@ -5,7 +5,7 @@
 			class="p-2 px-4 full navbar bg-base-200 flex sticky top-0 z-20 shadow-[0_5px_2px_0_rgba(0,0,0,0.5)]"
 		>
 			<div class="navbar-start">
-				<a href="/">
+				<a href="/ChaoticFamilyWebsite/">
 					<img
 						src="/ChaoticFamilyWebsite/LogoChaoticTrasparente.png"
 						alt="Logo Chaotic Family"

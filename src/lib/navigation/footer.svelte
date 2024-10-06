@@ -5,7 +5,7 @@
 	<nav
 		class="w-full md:w-48 grid grid-cols-4 gap-auto md:gap-4 justify-self-center justify-items-center md:justify-self-end"
 	>
-		<a href="/">
+		<a href="/ChaoticFamilyWebsite/">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				x="0px"
