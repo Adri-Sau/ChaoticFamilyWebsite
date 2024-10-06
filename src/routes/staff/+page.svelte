@@ -1,6 +1,6 @@
 <script>
-	import Navbar from '../../components/navigation/navbar.svelte';
-	import Footer from '../../components/navigation/footer.svelte';
+	import Navbar from '$lib/navigation/navbar.svelte';
+	import Footer from '$lib/navigation/footer.svelte';
 	import data from '$lib/data.json';
 
 	const BACKGROUND = data.staff.background.src;
@@ -17,7 +17,7 @@
 				<img
 					src={staff.image.src}
 					alt={staff.image.alt}
-					class={`w-full shadow-lg mask ${staff.image.mask === 'mask-square' ? 'rounded-3xl' : staff.image.mask}`}
+					class={`w-full drop-shadow-lg mask ${staff.image.mask === 'mask-square' ? 'rounded-3xl' : staff.image.mask}`}
 				/>
 				<div class="absolute w-full top-1/2 -translate-y-1/2">
 					<h1 class="text-4xl text-center font-bold">{staff.name}</h1>

@@ -1,10 +1,9 @@
 <script>
-	import Navbar from '../components/navigation/navbar.svelte';
-	import Footer from '../components/navigation/footer.svelte';
+	import Navbar from '$lib/navigation/navbar.svelte';
+	import Footer from '$lib/navigation/footer.svelte';
 	import data from '$lib/data.json';
 
 	const BACKGROUND = data.home.background.src;
-
 	const PARAGRAPHS = data.home.paragraphs;
 </script>
 
@@ -18,7 +17,7 @@
 					? 'md:flex-row-reverse'
 					: ''} items-center md:items-start"
 			>
-				<div class="md:w-1/4 p-4 shadow-lg">
+				<div class="md:w-1/4 drop-shadow-lg">
 					<img
 						src={paragraph.image.src}
 						alt={paragraph.image.alt}

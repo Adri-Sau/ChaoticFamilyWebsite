@@ -1,7 +1,3 @@
-<script>
-	import LOGO from '$lib/images/LogoChaoticTrasparente.png';
-</script>
-
 <div class="drawer drawer-end sticky top-0 z-50">
 	<input id="my-drawer-1" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content">
@@ -11,7 +7,7 @@
 			<div class="navbar-start">
 				<a href="/">
 					<img
-						src={LOGO}
+						src="/LogoChaoticTrasparente.png"
 						alt="Logo Chaotic Family"
 						class="rounded w-16 hover:scale-110 transition-transform duration-100"
 					/>

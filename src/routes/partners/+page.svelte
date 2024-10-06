@@ -1,6 +1,6 @@
 <script>
-	import Navbar from '../../components/navigation/navbar.svelte';
-	import Footer from '../../components/navigation/footer.svelte';
+	import Navbar from '$lib/navigation/navbar.svelte';
+	import Footer from '$lib/navigation/footer.svelte';
 	import data from '$lib/data.json';
 
 	const BACKGROUND = data.staff.background.src;
@@ -57,7 +57,7 @@
 				<img
 					src={partner.image.src}
 					alt={partner.image.alt}
-					class={`w-full shadow-lg mask ${partner.image.mask === 'mask-square' ? 'rounded-3xl' : partner.image.mask}`}
+					class={`w-full drop-shadow-lg mask ${partner.image.mask === 'mask-square' ? 'rounded-3xl' : partner.image.mask}`}
 				/>
 				<h1 class="text-4xl text-center font-bold">{partner.name}</h1>
 			</div>
