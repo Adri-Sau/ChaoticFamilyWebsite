@@ -7,7 +7,7 @@
 			<div class="navbar-start">
 				<a href="/">
 					<img
-						src="/LogoChaoticTrasparente.png"
+						src="/ChaoticFamilyWebsite/LogoChaoticTrasparente.png"
 						alt="Logo Chaotic Family"
 						class="rounded w-16 hover:scale-110 transition-transform duration-100"
 					/>
@@ -17,19 +17,19 @@
 			<div class="navbar-center">
 				<ul class="menu menu-horizontal text-xl font-bold hidden sm:flex">
 					<li>
-						<a href="/" class="btn btn-ghost text-xl">Home</a>
+						<a href="/ChaoticFamilyWebsite/" class="btn btn-ghost text-xl">Home</a>
 					</li>
 					<li>
-						<a href="/courses" class="btn btn-ghost text-xl">Courses</a>
+						<a href="/ChaoticFamilyWebsite/courses" class="btn btn-ghost text-xl">Courses</a>
 					</li>
 					<li>
-						<a href="/staff" class="btn btn-ghost text-xl">Staff</a>
+						<a href="/ChaoticFamilyWebsite/staff" class="btn btn-ghost text-xl">Staff</a>
 					</li>
 					<li>
-						<a href="/shop" class="btn btn-ghost text-xl">Shop</a>
+						<a href="/ChaoticFamilyWebsite/shop" class="btn btn-ghost text-xl">Shop</a>
 					</li>
 					<li>
-						<a href="/partners" class="btn btn-ghost text-xl">Partners</a>
+						<a href="/ChaoticFamilyWebsite/partners" class="btn btn-ghost text-xl">Partners</a>
 					</li>
 				</ul>
 			</div>
