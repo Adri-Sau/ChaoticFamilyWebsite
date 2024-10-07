@@ -31,14 +31,14 @@
 				<img
 					src={prelink(course.image.src)}
 					alt={course.image.alt}
-					class={`w-full mask ${course.image.mask === 'mask-square' ? 'rounded-3xl' : course.image.mask}`}
+					class={`w-full select-none mask ${course.image.mask === 'mask-square' ? 'rounded-3xl' : course.image.mask}`}
 				/>
 				<div class="absolute w-full top-1/2 -translate-y-1/2">
-					<h1 class="text-4xl text-center font-bold">{course.title}</h1>
+					<h1 class="text-4xl text-center font-bold select-none">{course.title}</h1>
 					{#each course.trainings as training}
 						<div>
-							<div class="text-center text-xl">{training.day}</div>
-							<div class="text-center">{training.time}</div>
+							<div class="text-center text-xl select-none">{training.day}</div>
+							<div class="text-center select-none">{training.time}</div>
 						</div>
 					{/each}
 				</div>

@@ -1,6 +1,6 @@
 <footer class="footer bg-neutral text-neutral-content items-center p-4 px-8">
 	<aside class="grid-flow-col items-center md:block hidden">
-		<p class="text-2xl">Contattaci</p>
+		<p class="text-2xl select-none">Contattaci</p>
 	</aside>
 	<nav
 		class="w-full md:w-48 grid grid-cols-4 gap-auto md:gap-4 justify-self-center justify-items-center md:justify-self-end"

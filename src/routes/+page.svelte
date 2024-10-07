@@ -35,11 +35,11 @@
 					<img
 						src={prelink(paragraph.image.src)}
 						alt={paragraph.image.alt}
-						class={`w-full mask ${paragraph.image.mask === 'mask-square' ? 'rounded-3xl' : paragraph.image.mask}`}
+						class={`w-full mask select-none ${paragraph.image.mask === 'mask-square' ? 'rounded-3xl' : paragraph.image.mask}`}
 					/>
 				</div>
 				<div class="md:w-1/4 p-4">
-					<p class="text-lg font-semibold text-center">{paragraph.text}</p>
+					<p class="text-lg font-semibold text-center align-middle select-none">{paragraph.text}</p>
 				</div>
 			</div>
 		{/each}

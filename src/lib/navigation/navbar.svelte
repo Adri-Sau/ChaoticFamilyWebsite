@@ -23,7 +23,7 @@
 					<img
 						src={prelink('/LogoChaoticTrasparente.png')}
 						alt="Logo Chaotic Family"
-						class="rounded w-16 hover:scale-110 transition-transform duration-100"
+						class="rounded w-16 hover:scale-110 transition-transform duration-100 select-none"
 					/>
 				</a>
 			</div>
@@ -31,19 +31,19 @@
 			<div class="navbar-center">
 				<ul class="menu menu-horizontal text-xl font-bold hidden sm:flex">
 					<li>
-						<a href={prelink('/')} class="btn btn-ghost text-xl">Home</a>
+						<a href={prelink('/')} class="btn btn-ghost text-xl select-none">Home</a>
 					</li>
 					<li>
-						<a href={prelink('/courses')} class="btn btn-ghost text-xl">Courses</a>
+						<a href={prelink('/courses')} class="btn btn-ghost text-xl select-none">Courses</a>
 					</li>
 					<li>
-						<a href={prelink('/staff')} class="btn btn-ghost text-xl">Staff</a>
+						<a href={prelink('/staff')} class="btn btn-ghost text-xl select-none">Staff</a>
 					</li>
 					<li>
-						<a href={prelink('/shop')} class="btn btn-ghost text-xl">Shop</a>
+						<a href={prelink('/shop')} class="btn btn-ghost text-xl select-none">Shop</a>
 					</li>
 					<li>
-						<a href={prelink('/partners')} class="btn btn-ghost text-xl">Partners</a>
+						<a href={prelink('/partners')} class="btn btn-ghost text-xl select-none">Partners</a>
 					</li>
 				</ul>
 			</div>
