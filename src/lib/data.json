@@ -1,14 +1,14 @@
 {
     "home": {
         "background": {
-            "src": "/ChaoticFamilyWebsite/1920x1080_placeholder.jpg",
+            "src": "/1920x1080_placeholder.jpg",
             "alt": "Background image"
         },
         "paragraphs": [
             {
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Placeholder image",
                     "align": "left",
                     "mask": "mask-squircle"
@@ -17,7 +17,7 @@
             {
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Placeholder image",
                     "align": "right",
                     "mask": "mask-hexagon-2"
@@ -26,7 +26,7 @@
             {
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Placeholder image",
                     "align": "left",
                     "mask": "mask-circle"
@@ -35,7 +35,7 @@
             {
                 "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Placeholder image",
                     "align": "right",
                     "mask": "mask-square"
@@ -45,14 +45,14 @@
     },
     "courses": {
         "background": {
-            "src": "/ChaoticFamilyWebsite/1920x1080_placeholder.jpg",
+            "src": "/1920x1080_placeholder.jpg",
             "alt": "Background image"
         },
         "list": [
             {
                 "title": "Avanzati",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine copertina del corso avanzato",
                     "mask": "mask-squircle"
                 },
@@ -73,7 +73,7 @@
             {
                 "title": "Medi",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine copertina del corso giovani",
                     "mask": "mask-square"
                 },
@@ -94,7 +94,7 @@
             {
                 "title": "Principianti",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine copertina del corso principiante",
                     "mask": "mask-hexagon-2"
                 },
@@ -110,7 +110,7 @@
             {
                 "title": "Baby",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine copertina del corso bambini",
                     "mask": "mask-circle"
                 },
@@ -127,7 +127,7 @@
     },
     "staff": {
         "background": {
-            "src": "/ChaoticFamilyWebsite/1920x1080_placeholder.jpg",
+            "src": "/1920x1080_placeholder.jpg",
             "alt": "Background image"
         },
         "list": [
@@ -135,7 +135,7 @@
                 "name": "Test Prova",
                 "role": "Monitore",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine di Prova",
                     "mask": "mask-squircle"
                 },
@@ -145,7 +145,7 @@
                 "name": "Test Prova",
                 "role": "Monitore",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine di Prova",
                     "mask": "mask-squircle"
                 },
@@ -155,7 +155,7 @@
                 "name": "Test Prova",
                 "role": "Monitore",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine di Prova",
                     "mask": "mask-squircle"
                 },
@@ -165,7 +165,7 @@
                 "name": "Test Prova",
                 "role": "Monitore",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine di Prova",
                     "mask": "mask-squircle"
                 },
@@ -175,7 +175,7 @@
                 "name": "Test Prova",
                 "role": "Monitore",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine di Prova",
                     "mask": "mask-squircle"
                 },
@@ -185,7 +185,7 @@
                 "name": "Test Prova",
                 "role": "Monitore",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine di Prova",
                     "mask": "mask-squircle"
                 },
@@ -195,7 +195,7 @@
                 "name": "Test Prova",
                 "role": "Monitore",
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine di Prova",
                     "mask": "mask-squircle"
                 },
@@ -205,13 +205,13 @@
     },
     "merch": {
         "background": {
-            "src": "/ChaoticFamilyWebsite/1920x1080_placeholder.jpg",
+            "src": "/1920x1080_placeholder.jpg",
             "alt": "Background image"
         }
     },
     "partners": {
         "background": {
-            "src": "/ChaoticFamilyWebsite/1920x1080_placeholder.jpg",
+            "src": "/1920x1080_placeholder.jpg",
             "alt": "Background image"
         },
         "list": [
@@ -220,7 +220,7 @@
                 "link": "/",
                 "importance": 1,
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine del parthner 1",
                     "mask": "mask-squircle"
                 }
@@ -230,7 +230,7 @@
                 "link": "/",
                 "importance": 2,
                 "image": {
-                    "src": "/ChaoticFamilyWebsite/200x200_placeholder.png",
+                    "src": "/200x200_placeholder.png",
                     "alt": "Immagine del parthner 2",
                     "mask": "mask-square"
                 }

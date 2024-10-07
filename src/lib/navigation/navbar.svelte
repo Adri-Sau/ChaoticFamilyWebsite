@@ -1,3 +1,17 @@
+<script>
+	import { dev } from '$app/environment';
+
+	/**
+	 * @param {any} href
+	 */
+	function prelink(href) {
+		if (dev) {
+			return href;
+		}
+		return `/ChaoticFamilyWebsite${href}`;
+	}
+</script>
+
 <div class="drawer drawer-end sticky top-0 z-50">
 	<input id="my-drawer-1" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content">
@@ -5,9 +19,9 @@
 			class="p-2 px-4 full navbar bg-base-200 flex sticky top-0 z-20 shadow-[0_5px_2px_0_rgba(0,0,0,0.5)]"
 		>
 			<div class="navbar-start">
-				<a href="/ChaoticFamilyWebsite/">
+				<a href={prelink('/')}>
 					<img
-						src="/ChaoticFamilyWebsite/LogoChaoticTrasparente.png"
+						src={prelink('/LogoChaoticTrasparente.png')}
 						alt="Logo Chaotic Family"
 						class="rounded w-16 hover:scale-110 transition-transform duration-100"
 					/>
@@ -17,19 +31,19 @@
 			<div class="navbar-center">
 				<ul class="menu menu-horizontal text-xl font-bold hidden sm:flex">
 					<li>
-						<a href="/ChaoticFamilyWebsite/" class="btn btn-ghost text-xl">Home</a>
+						<a href={prelink('/')} class="btn btn-ghost text-xl">Home</a>
 					</li>
 					<li>
-						<a href="/ChaoticFamilyWebsite/courses" class="btn btn-ghost text-xl">Courses</a>
+						<a href={prelink('/courses')} class="btn btn-ghost text-xl">Courses</a>
 					</li>
 					<li>
-						<a href="/ChaoticFamilyWebsite/staff" class="btn btn-ghost text-xl">Staff</a>
+						<a href={prelink('/staff')} class="btn btn-ghost text-xl">Staff</a>
 					</li>
 					<li>
-						<a href="/ChaoticFamilyWebsite/shop" class="btn btn-ghost text-xl">Shop</a>
+						<a href={prelink('/shop')} class="btn btn-ghost text-xl">Shop</a>
 					</li>
 					<li>
-						<a href="/ChaoticFamilyWebsite/partners" class="btn btn-ghost text-xl">Partners</a>
+						<a href={prelink('/partners')} class="btn btn-ghost text-xl">Partners</a>
 					</li>
 				</ul>
 			</div>
@@ -64,19 +78,19 @@
 		<label for="my-drawer-1" aria-label="close sidebar" class="drawer-overlay"></label>
 		<ul class="menu p-4 w-40 min-h-full bg-base-200 text-base-content pt-20">
 			<li>
-				<a href="/" class="btn btn-ghost text-xl">Home</a>
+				<a href={prelink('/')} class="btn btn-ghost text-xl">Home</a>
 			</li>
 			<li>
-				<a href="/courses" class="btn btn-ghost text-xl">Courses</a>
+				<a href={prelink('/courses')} class="btn btn-ghost text-xl">Courses</a>
 			</li>
 			<li>
-				<a href="/staff" class="btn btn-ghost text-xl">Staff</a>
+				<a href={prelink('/staff')} class="btn btn-ghost text-xl">Staff</a>
 			</li>
 			<li>
-				<a href="/shop" class="btn btn-ghost text-xl">Shop</a>
+				<a href={prelink('/shop')} class="btn btn-ghost text-xl">Shop</a>
 			</li>
 			<li>
-				<a href="/partners" class="btn btn-ghost text-xl">Partners</a>
+				<a href={prelink('/partners')} class="btn btn-ghost text-xl">Partners</a>
 			</li>
 		</ul>
 	</div>

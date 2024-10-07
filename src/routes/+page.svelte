@@ -2,14 +2,28 @@
 	import Navbar from '$lib/navigation/navbar.svelte';
 	import Footer from '$lib/navigation/footer.svelte';
 	import data from '$lib/data.json';
+	import { dev } from '$app/environment';
 
 	const BACKGROUND = data.home.background.src;
 	const PARAGRAPHS = data.home.paragraphs;
+
+	/**
+	 * @param {string} src
+	 */
+	function prelink(src) {
+		if (dev) {
+			return src;
+		}
+		return `/ChaoticFamilyWebsite${src}`;
+	}
 </script>
 
 <Navbar />
 
-<div class="flex-grow bg-cover bg-center bg-fixed" style="background-image: url('{BACKGROUND}');">
+<div
+	class="flex-grow bg-cover bg-center bg-fixed"
+	style="background-image: url('{prelink(BACKGROUND)}');"
+>
 	<div class="container mx-auto py-8 grid grid-cols-1 gap-8">
 		{#each PARAGRAPHS as paragraph}
 			<div
@@ -19,7 +33,7 @@
 			>
 				<div class="md:w-1/4 drop-shadow-lg">
 					<img
-						src={paragraph.image.src}
+						src={prelink(paragraph.image.src)}
 						alt={paragraph.image.alt}
 						class={`w-full mask ${paragraph.image.mask === 'mask-square' ? 'rounded-3xl' : paragraph.image.mask}`}
 					/>
